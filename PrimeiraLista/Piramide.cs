@@ -15,8 +15,9 @@ namespace PrimeiraLista
             this.N = n;
         }
 
-        public void Desenha(int n)
+        public void Desenha()
         {
+            int n = this.N;
             if (n < 1)
             {
                 throw new NotFiniteNumberException();

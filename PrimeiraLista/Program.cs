@@ -1,9 +1,9 @@
 ﻿using PrimeiraLista;
 
-Piramide piramide = new Piramide(4);
+Piramide piramide = new Piramide(3);
 try
 {
-    piramide.Desenha(4);
+    piramide.Desenha();
 }
 catch (NotFiniteNumberException)
 {
