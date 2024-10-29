@@ -34,7 +34,7 @@ namespace PrimeiraLista
                 }
                 Console.WriteLine();
             }
+            
         }
     }
-
 }

@@ -1,11 +1,17 @@
 ﻿using PrimeiraLista;
+using System;
 
-Piramide piramide = new Piramide(3);
-try
+namespace FirstList
 {
-    piramide.Desenha();
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Piramide piramide = new Piramide(4);
+            piramide.Desenha();
+
+        }
+    }
 }
-catch (NotFiniteNumberException)
-{
-    Console.WriteLine("O numero precisa ser maior ou igual a 1");
-}
+
+
