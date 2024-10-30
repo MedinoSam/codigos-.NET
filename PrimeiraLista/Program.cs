@@ -60,6 +60,10 @@ namespace PrimeiraLista
             Console.WriteLine(tempo.ToString());
             */
 
+            //trrecho referente ao armstrong
+            //Armstrong.printaArmastrong();
+
+
 
         }
     }
