@@ -44,6 +44,10 @@ namespace PrimeiraLista
                 Console.WriteLine(" Os vertices sao diferentes");
                 return false;
         }
+        public override string ToString()
+        {
+            return $"({X}, {Y})";
+        }
 
     }
 }
