@@ -34,7 +34,7 @@ namespace PrimeiraLista
 
 
             //trecho referente ao poligono
-            Vertice v1 = new Vertice(4, 5);
+            /*Vertice v1 = new Vertice(4, 5);
             Vertice v2 = new Vertice(3, 6);
             Vertice v3 = new Vertice(9, 5);
             Vertice v4 = new Vertice(1, 3);
@@ -48,6 +48,19 @@ namespace PrimeiraLista
             int qtdVertices = poligono.QuantidadeVertices;
             Console.WriteLine("perimetro do poligono: " + perimetro);
             Console.WriteLine("quantidade de vertices: " + qtdVertices);
+            */
+
+            //trecho referente ao intervalo
+            /*
+            DateTime entrada1 = new DateTime(2019, 05, 01, 13, 52, 22);
+            DateTime entrada2 = new DateTime(2018, 06, 02, 14, 53, 21);
+            Intervalo intervalo = new Intervalo(entrada1, DateTime.Now);
+            Intervalo intervalo2 = new Intervalo(entrada2, DateTime.Now);
+            TimeSpan tempo =  intervalo.Duracao();
+            Console.WriteLine(tempo.ToString());
+            */
+
+
         }
     }
 }
